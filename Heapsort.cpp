@@ -64,7 +64,7 @@ int main()
 	Build_MaxHeap(arr, n-1);
 	HeapSort(arr, n-1);
  
-	// Mostra o vetor ordenado.
+	// Mostra o vetor ordenado
 	cout<<"\nVetor ordenado : ";
  
 	for (i = 1; i < n; i++)
