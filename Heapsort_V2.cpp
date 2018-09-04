@@ -8,10 +8,9 @@ int main(){
     int  a[MAX], n;
     scanf("%d", &n);
     
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++)
         scanf("%d", &a[i]);
-    }
-
+        
     make_heap(&a[0], &a[n]);
     sort_heap(&a[0], &a[0]+n);
     
